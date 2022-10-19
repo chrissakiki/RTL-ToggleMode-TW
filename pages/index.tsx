@@ -4,11 +4,11 @@ import { ThemeProvider } from "next-themes";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-white h-screen flex-cc flex-col">
-      <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class">
+      <div className="bg-white h-screen flex-cc flex-col">
         <Sample />
-      </ThemeProvider>
-    </div>
+      </div>
+    </ThemeProvider>
   );
 };
 
